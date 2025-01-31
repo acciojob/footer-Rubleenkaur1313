@@ -1,1 +1,52 @@
-/* your code here */
+body {
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif; /* Set a default font */
+}
+
+.footer {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow wrapping of sections */
+    justify-content: space-between; /* Space out sections */
+    background-color: #333; /* Dark background for the footer */
+    color: white; /* White text color */
+    padding: 20px; /* Padding for the footer */
+}
+
+.footer-section {
+    flex: 1; /* Allow sections to grow equally */
+    min-width: 200px; /* Minimum width for each section */
+    margin: 10px; /* Margin around each section */
+}
+
+.footer-section h3 {
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+.footer-section ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.footer-section ul li {
+    margin: 5px 0; /* Space between list items */
+}
+
+.footer-section a {
+    color: white; /* White link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.footer-section a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.social-media {
+    display: flex; /* Use flexbox for social media icons */
+    justify-content: flex-start; /* Align items to the start */
+}
+
+.media-icons {
+    margin-right: 15px; /* Space between icons */
+    color: white; /* White color for icons */
+}
+
